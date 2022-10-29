@@ -243,15 +243,17 @@ header {
     margin: 0;
     margin-bottom: 4rem;
     max-width: 500px;
-    transform: scale(0.9);
+    width: 100vw;
   }
 
   .mobile img {
-    max-height: 300px;
-    max-width: 250px;
+    max-height: 350px;
+    max-width: 300px;
+    margin-top: 25px;
   }
   .section-3 .section-3-contents .download img {
     max-width: 250px;
+    transform: scale(0.8);
   }
   .search {
     width: 220px;
@@ -276,5 +278,28 @@ header {
   }
   .section-1{
     margin: 15px;
+  }
+  .header-image>img{
+    width: 100vw;
+    height: 90vh;
+  }
+  .head h3{
+    font-size: 13px;
+  }
+  .head .logo{
+    width: 75vw;
+    filter:grayscale(180%) blur(0.25px) contrast(-55px) brightness(-5px);
+  }
+  .section-3 .section-3-contents .download p{
+    transform: scale(0.9);
+  }
+  .section-3 .section-3-contents .download h3{
+    transform: scale(0.9);
+  }
+  .section-1{
+    transform: scale(0.9);
+  }
+  .section-2{
+    transform: scale(0.93);
   }
 }
