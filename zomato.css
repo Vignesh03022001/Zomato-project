@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", Monospace;
+  box-sizing: border-box;
   /* display: flex;
   flex-wrap: wrap;
   justify-content: center; */
@@ -239,11 +240,11 @@ header {
 
 @media only screen and (max-width: 700px) {
   .section-3 {
-    height: 10vh;
+    height: 8vh;
     margin: 0;
-    margin-bottom: 4rem;
-    max-width: 500px;
+    /* margin-bottom: 4rem; */
     width: 100vw;
+    transform: scale(1.1);
   }
 
   .mobile img {
