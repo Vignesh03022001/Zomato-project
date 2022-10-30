@@ -20,7 +20,7 @@ header {
   margin-right: 0;
 }
 .nav {
-  position: fixed;
+  position: sticked;
   list-style: none;
   font-weight: 200;
   color: white;
